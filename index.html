@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Green CRM</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1e293b; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #f8fafc; }
+    .card { background: white; padding: 32px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    h1 { color: #047857; margin-top: 0; }
+    h2 { color: #065f46; border-bottom: 1px solid #f1f5f9; padding-bottom: 8px; margin-top: 24px; font-size: 1.25rem; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .badge { display: inline-block; background: #ecfdf5; color: #065f46; font-size: 0.85rem; font-weight: 600; padding: 4px 10px; border-radius: 999px; border: 1px solid #a7f3d0; margin-bottom: 16px; }
+    .footer { margin-top: 32px; font-size: 0.85rem; color: #64748b; border-top: 1px solid #e2e8f0; padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Privacidad 100% Local</span>
+    <h1>Política de Privacidad — Green CRM</h1>
+    <p><em>Última actualización: Noviembre 2026</em></p>
+
+    <h2>1. Arquitectura 100% Local y Privada</h2>
+    <p>Green CRM fue diseñado bajo un principio estricto de privacidad:</p>
+    <ul>
+      <li><strong>Cero servidores externos:</strong> Todos tus contactos, etapas del embudo, notas privadas, respuestas rápidas y recordatorios se guardan <strong>exclusivamente en tu navegador</strong> usando IndexedDB y <code>chrome.storage.local</code>.</li>
+      <li><strong>Cero telemetría y rastreadores:</strong> La extensión no contiene analítica, scripts de seguimiento ni grabadores de sesión.</li>
+      <li><strong>Sin scraping masivo:</strong> Green CRM no extrae listas de chats ni lee mensajes de fondo. Solo lee el nombre del chat activo cuando haces clic en él.</li>
+    </ul>
+
+    <h2>2. Permisos Requeridos</h2>
+    <ul>
+      <li><code>sidePanel</code>: Para abrir el panel lateral junto a WhatsApp Web.</li>
+      <li><code>storage</code>: Para almacenar preferencias locales de la extensión.</li>
+      <li><code>alarms</code> y <code>notifications</code>: Para emitir recordatorios en tu computadora.</li>
+      <li><code>https://web.whatsapp.com/*</code>: Para detectar el chat seleccionado e insertar texto cuando tú lo decides.</li>
+      <li><code>https://api.gumroad.com/*</code>: Usado únicamente cuando activas voluntariamente una clave de licencia Pro para verificar su validez.</li>
+    </ul>
+
+    <h2>3. Control de tus Datos</h2>
+    <p>Puedes exportar un respaldo completo en formato JSON o tus contactos a CSV desde el panel de Ajustes en cualquier momento. Si desinstalas la extensión, todos los datos locales se eliminan de tu navegador.</p>
+
+    <div class="footer">
+      <p><strong>Descargo de responsabilidad:</strong> Green CRM es una herramienta de software independiente y no tiene relación, afiliación ni patrocinio de WhatsApp Inc. ni Meta Platforms, Inc.</p>
+    </div>
+  </div>
+</body>
+</html>
